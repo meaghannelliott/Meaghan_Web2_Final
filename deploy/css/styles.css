@@ -369,39 +369,48 @@ body {
 }
 body h1 {
   text-align: center;
-  font-size: 48px;
+  font-size: 48pt;
   font-weight: 500;
 }
 @media (min-width: 768px) {
   body h1 {
-    font-size: 70px;
+    font-size: 70pt;
   }
 }
 body h2 {
   text-align: center;
-  font-size: 28px;
+  font-size: 28pt;
   font-weight: 500;
 }
 @media (min-width: 768px) {
   body h2 {
-    font-size: 34px;
+    font-size: 34pt;
   }
 }
 body h3 {
   text-align: center;
-  font-size: 22pt;
+  font-size: 20pt;
   font-weight: 500;
 }
 @media (min-width: 992px) {
   body h3 {
-    font-size: 28px;
+    font-size: 28pt;
   }
 }
 body h4 {
+  font-size: 16pt;
+  font-weight: 300;
+}
+@media (min-width: 992px) {
+  body h4 {
+    font-size: 20pt;
+  }
+}
+body h5 {
   font-size: 14pt;
   font-weight: 300;
 }
-body h5 {
+body h6 {
   font-size: 10pt;
   font-weight: 300;
 }
