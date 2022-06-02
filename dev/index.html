@@ -12,7 +12,9 @@
     <title>Meaghan Elliott Final</title>
   </head>
 
-  <body>
+
+<body>
+  <main>
 
 <div class="body">
 
@@ -25,20 +27,46 @@
 
         <button><img src="img/Icons/Cart.svg" alt="Cart Icon"></button>
         <button><img src="img/Icons/Hamburger.svg" alt="Navigation Drop Icon"></button>
-      </div>
+      </div> 
+      <!--mobile nav-->
+      <aside class="burger-container">
+        <button id="burger-button">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </aside>
+    
+      <!--nav, does it go here?-->
+
+      <nav id="main-menu">
+        <aside class="hide-for-lg">
+          <button id="close-button">
+            <i class="fa-solid fa-xmark-large"></i>
+          </button>
+        </aside>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
+  <section class="hero"></section>
+
 
  <!--welcome-->
 
   <section class="welcome">
     <div class="container">
       <div class="content">
-        <h1>Happy New You!</h1>
-        <h3>Winter 2022</h3>        
-        <img src="img/Images/Home1.jpg" alt="Folded Clothing">
         <div>
-          <button>See it Here</button>
+        <h1>Happy <br> New You!</h1>
+        <h3>Winter 2022</h3> 
+        <button>See it Here</button>
+      </div>
+      <div>
+        <img src="img/Images/Home1.jpg" alt="Folded Clothing">
+      </div>       
       </div>
     </div>
   </section>
@@ -50,7 +78,7 @@
       <div class="content">
         <h2>The Latests + Greatest</h2>
           <div class="photos">
-            <img src="img/assets/Images/Home2.jpg" alt="Bike Shorts">
+            <img src="img/Images/Home2.jpg" alt="Bike Shorts">
             <img src="img/Images/Home3.jpg" alt="Bikes on Dune">
             <img src="img/Images/Home4.jpg" alt="Two Bikers on Road">
             <img src="img/Images/Home5.jpg" alt="Mountains">
@@ -65,7 +93,7 @@
   <section class="about">
     <div class="contatiner">
       <div class="content">
-        <h4>Designed in California and almost always made in the USA</h4>
+        <h3>Designed in California and almost always made in the USA</h3>
         <button>Read About Team Dream</button>
       </div>
     </div>
@@ -83,7 +111,7 @@
             <div class="container">
               <div class="content">
                 <img src="img/Images/Card1.jpg" alt="Red Bike">
-                <h5>Sheldon's Custom Firefly</h5>
+                <h6>Sheldon's Custom Firefly</h6>
               </div>
             </div>
           </article>
@@ -92,7 +120,7 @@
             <div class="container">
               <div class="content">
                 <img src="img/Images/Card2.jpg" alt="Man On Bike">
-                <h5>Introducing Eurovacay</h5>
+                <h6>Introducing Eurovacay</h6>
               </div>
             </div>
           </article>
@@ -101,7 +129,7 @@
             <div class="container">
               <div class="content">
                 <img src="img/Images/Card3.jpg" alt="Masked Person in Cold Weather">
-                <h5>2020 Pandemic Update</h5>
+                <h6>2020 Pandemic Update</h6>
               </div>
             </div>
           </article>
@@ -110,7 +138,7 @@
             <div class="container">
               <div class="content">
                 <img src="img/Images/Card4.jpg" alt="Cub House Nalgene Water Bottles">
-                <h5>Proceeds Product Launch</h5>
+                <h6>Proceeds Product Launch</h6>
               </div>
             </div>
           </article>
@@ -119,7 +147,7 @@
             <div class="container">
               <div class="content">
                 <img src="img/Images/Card5.jpg" alt="Masked Person wearing sunglasses">
-                <h5>An Important Update</h5>
+                <h6>An Important Update</h6>
               </div>
             </div>
           </article>
@@ -149,13 +177,15 @@
 
         <article class="need-help">
           <div class="container">
+            
             <div class="content">
-              <h5>Heed Help?</h5>
-              <button><h6>Retail Partners</h6></button>
-              <button><h6>FAQs</h6></button>
-              <button><h6>Contact</h6></button>
-              <button><h6>Search</h6></button>
-              <!--Should these be buttons?-->
+              <h5>Need Help?</h5>
+              <ul >
+                <li><a href="#">Retail Partners</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Search</a></li>
+              </ul>
             </div>
           </div>
         </article>
@@ -179,23 +209,24 @@
           <div class="container">
             <div class="content">
               <h5>Find Us</h5>
-              <button><img src="img/Icons/facebook.svg" alt="Facebook Icon"></button>
-              <button><img src="img/Icons/tumblr.svg" alt="Tumblr Icon"></button>
-              <button><img src="img/Icons/instagram.svg" alt="Instagram Icon"></button>
-              <button><img src="img/Icons/cubhouse.svg" alt="Cub House Icon"></button>
+              <ul >
+                <li><a href="#"><img src="img/Icons/facebook.svg" alt="Facebook Icon"></a></li>
+                <li><a href="#"><img src="img/Icons/tumblr.svg" alt="Tumblr Icon"></a></li>
+                <li><a href="#"><img src="img/Icons/instagram.svg" alt="Instagram Icon"></a></li>
+                <li><a href="#"><img src="img/Icons/cubhouse.svg" alt="Cub House Icon"></a></li>
+              </ul>
             </div>
           </div>
         </article>
 
         <article class="bar">
           <div class="container">
-            <div class="content">
-              <button><h6>Privacy Policy</h6></button>
-              <button><h6>Terms of Use</h6></button>
-              <button><h6>Accessibility</h6></button>
-              <button><h6>CA Residents</h6></button>
-              <!--Should these be buttons?-->
-            </div>
+            <ul class="content">
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Use</a></li>
+              <li><a href="#">Accessibility</a></li>
+              <li><a href="#">CA Residents</a></li>
+            </ul>
           </div>
 
           
@@ -210,7 +241,7 @@
 
     
 </div>
-
+</main>
     <script src="js/scripts-min.js"></script>
   </body>
 
