@@ -449,6 +449,87 @@ textarea {
 /* =============
     Navigation
 ============= */
+nav {
+  display: none;
+  background-color: #000;
+  height: 100vh;
+  padding: 16px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50vw;
+}
+@media (min-width: 992px) {
+  nav {
+    background-color: #fff;
+    display: block;
+    height: 100%;
+    padding: 0;
+    position: relative;
+    width: 100%;
+  }
+}
+nav aside {
+  display: flex;
+  justify-content: flex-end;
+}
+nav aside button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+}
+nav aside button:hover {
+  cursor: pointer;
+}
+nav ul {
+  height: 100%;
+  padding-top: 20%;
+}
+@media (min-width: 992px) {
+  nav ul {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 0;
+  }
+}
+nav ul li {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 24px;
+  text-align: right;
+}
+@media (min-width: 992px) {
+  nav ul li {
+    border-left: 1px solid #000;
+    margin-bottom: 0;
+    margin-left: 16px;
+    padding-left: 24px;
+  }
+}
+nav ul li a:link,
+nav ul li a:visited {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  text-decoration: none;
+  transition: 0.25s;
+}
+@media (min-width: 992px) {
+  nav ul li a:link,
+nav ul li a:visited {
+    color: #000;
+  }
+}
+nav ul li a:link:hover, nav ul li a:link:active,
+nav ul li a:visited:hover,
+nav ul li a:visited:active {
+  color: #000;
+}
+nav ul li:first-child {
+  border: none;
+}
+
 /* =============
     Header
 ============= */
