@@ -583,6 +583,10 @@ footer .bar {
   display: grid;
   grid-template-columns: 50% 50%;
 }
+.welcome .welcome-type {
+  color: white;
+  background-color: #50BCD2;
+}
 
 /* =============
     journal
