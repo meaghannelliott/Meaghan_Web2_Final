@@ -559,9 +559,21 @@ header .row nav ul {
 /* =============
     Footer
 ============= */
-footer {
-  background-color: #50BCD2;
+footer .content {
   color: white;
+}
+footer .content .stay-in-touch {
+  background-color: #50BCD2;
+}
+footer .content .need-help {
+  background-color: #4296B5;
+}
+footer .content .find-us {
+  background-color: #307189;
+}
+footer .bar {
+  background-color: #FDC430;
+  color: black;
 }
 
 /* =============

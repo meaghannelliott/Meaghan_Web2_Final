@@ -2,6 +2,21 @@
     Footer
 ============= */
 footer{
-    background-color: $teal1;
+    .content{
     color: white;
+
+    .stay-in-touch{
+        background-color: $teal1;
+    }
+    .need-help{
+        background-color: $teal2;
+    }
+    .find-us{
+        background-color: $teal3;
+    }
+}
+.bar{
+    background-color: $sunglow;
+    color: black;
+}
 }
