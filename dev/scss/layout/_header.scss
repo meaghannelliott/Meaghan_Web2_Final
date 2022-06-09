@@ -1,3 +1,32 @@
 /* =============
     Header
 ============= */
+
+header{
+    background-color: $sunglow;
+    border: none;
+
+            .row {
+        background-color: $sunglow;
+        display: flex;
+        justify-content: left;
+
+            nav{
+            display: flex;
+            justify-content: center;
+            background-color: $sunglow;
+                ul{
+                    background-color: $sunglow;
+                }
+            }
+            
+            
+            @include lg {
+            background-color: $sunglow
+
+            }
+
+        }
+    }
+
+    
